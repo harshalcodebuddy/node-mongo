@@ -12,7 +12,7 @@ app.use('/authors', authorRouter);
 app.use('/books', bookRouter);
 app.use('/genres', genreRouter);
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3002;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
